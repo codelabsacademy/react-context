@@ -1,0 +1,24 @@
+import Task from "./components/Task.js";
+import Section from "./components/Section";
+
+export default function Page() {
+  return (
+    <>
+      <Section level={1}>
+        <Task>Task Title</Task>
+        <Task>Task Title</Task>
+        <Task>Task Title</Task>
+      </Section>
+      <Section level={2}>
+        <Task>Task Title</Task>
+        <Task>Task Title</Task>
+        <Task>Task Title</Task>
+      </Section>
+      <Section level={3}>
+        <Task>Task Title</Task>
+        <Task>Task Title</Task>
+        <Task>Task Title</Task>
+      </Section>
+    </>
+  );
+}
